@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+andes_env/
+.andes_env/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ML / generated artifacts
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.model
+*.log
+
+# Local project caches
+results/**
+!results/.gitkeep
+reports/**
+!reports/.gitkeep
+
+# Optional: keep raw source data tracked unless you want to exclude it
+# dataset/
+# simulation/
